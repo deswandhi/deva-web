@@ -1,0 +1,7 @@
+services:
+  deva-course-web:
+    build: .
+    container_name: deva-course-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -1,0 +1,11 @@
+.git
+.DS_Store
+node_modules
+README.md
+*.log
+logs
+tmp
+temp
+*.tmp
+*.swp
+*.swo
