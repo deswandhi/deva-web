@@ -3,31 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deva Course | Pendampingan Belajar dan Tumbuh Kembang Anak Berkebutuhan Khusus</title>
+    <title>Deva Course | Tempat Belajar dan Pendampingan Anak</title>
     <meta
       name="description"
-      content="Deva Course menyediakan layanan pendampingan belajar, terapi, calistung, mengaji, dan pengembangan anak berkebutuhan khusus dengan pendekatan yang hangat dan personal."
+      content="Deva Course membantu anak belajar membaca, menulis, berhitung, mengaji, fokus, dan lebih percaya diri melalui pendampingan yang sabar dan bertahap."
     />
     <meta
       property="og:title"
-      content="Deva Course | Pendampingan Belajar dan Tumbuh Kembang Anak Berkebutuhan Khusus"
+      content="Deva Course | Tempat Belajar dan Pendampingan Anak"
     />
     <meta
       property="og:description"
-      content="Pendampingan belajar, terapi, calistung, mengaji, dan pengembangan anak berkebutuhan khusus dengan pendekatan yang hangat dan personal."
+      content="Pendampingan belajar anak dengan suasana hangat, sabar, dan sesuai kebutuhan masing-masing anak."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="public/assets/logo-deva-course.jpeg" />
+    <meta name="geo.region" content="ID-SB" />
+    <meta name="geo.placename" content="Solok, Sumatera Barat" />
+    <link rel="icon" type="image/jpeg" href="public/assets/logo-deva-course.jpeg" />
+    <link rel="apple-touch-icon" href="public/assets/logo-deva-course.jpeg" />
     <link rel="stylesheet" href="public/css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Deva Course",
+        "description": "Pendampingan belajar anak",
+        "image": "public/assets/logo-deva-course.jpeg",
+        "telephone": "+6282170695640",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jln Lintas Sumatera, Pasar Usang Cupak",
+          "addressLocality": "Solok",
+          "addressRegion": "Sumatera Barat",
+          "addressCountry": "ID"
+        },
+        "openingHours": ["Mo-Su 08:00-20:00"]
+      }
+    </script>
   </head>
   <body>
     <!-- Header / Navigasi -->
     <header class="site-header">
       <nav class="nav container" aria-label="Navigasi utama">
         <a class="brand" href="#home" aria-label="Beranda Deva Course">
-          <span class="brand-mark">D</span>
-          <span>
-            <strong>Deva Course</strong>
-            <small>Pendampingan belajar anak</small>
+          <img
+            class="brand-logo"
+            src="public/assets/logo-deva-course.jpeg"
+            alt="Logo Deva Course"
+            width="48"
+            height="48"
+          />
+          <span class="brand-text">
+            <strong class="brand-title">Deva Course</strong>
+            <small class="brand-subtitle">Pendampingan belajar anak</small>
           </span>
         </a>
 
@@ -46,6 +75,7 @@
         <ul class="nav-menu" id="nav-menu">
           <li><a href="#home">Beranda</a></li>
           <li><a href="#about">Tentang</a></li>
+          <li><a href="#layanan">Layanan</a></li>
           <li><a href="#programs">Program</a></li>
           <li><a href="#gallery">Galeri</a></li>
           <li><a href="#contact">Kontak</a></li>
@@ -58,23 +88,23 @@
       <section class="hero section" id="home">
         <div class="container hero-grid">
           <div class="hero-content">
-            <p class="eyebrow">Pendampingan anak berkebutuhan khusus</p>
-            <h1>Setiap Anak Istimewa, Setiap Perkembangan Sangat Berharga</h1>
+            <p class="eyebrow">Pendampingan belajar anak</p>
+            <h1>Tempat Belajar yang Hangat untuk Anak dengan Kebutuhan yang Berbeda</h1>
             <p class="hero-text">
-              Deva Course hadir untuk membantu anak belajar, berkembang, dan
-              lebih percaya diri melalui pendampingan yang sabar, terarah, dan
-              sesuai kebutuhan anak.
+              Deva Course membantu anak belajar membaca, menulis, berhitung,
+              mengaji, fokus, dan lebih percaya diri melalui pendampingan yang
+              sabar dan bertahap.
             </p>
             <div class="button-row">
-              <a class="btn btn-primary" href="#booking">Konsultasi Gratis</a>
-              <a
-                class="btn btn-secondary"
-                href="https://wa.me/6282170695640"
-                target="_blank"
-                rel="noopener"
-              >
-                Hubungi Kami
+              <a class="btn btn-primary" href="https://wa.me/6282170695640" target="_blank" rel="noopener">
+                Konsultasi via WhatsApp
               </a>
+              <a class="btn btn-secondary" href="#programs">Lihat Program</a>
+            </div>
+            <div class="hero-trust" aria-label="Keunggulan pendampingan Deva Course">
+              <span>Pendampingan personal</span>
+              <span>Suasana nyaman</span>
+              <span>Komunikasi dengan orang tua</span>
             </div>
           </div>
 
@@ -114,6 +144,63 @@
         </div>
       </section>
 
+      <!-- Layanan Utama Deva Course -->
+      <section class="section services-section" id="layanan" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Layanan Utama</p>
+            <h2 id="services-title">Layanan Utama Deva Course</h2>
+            <p>
+              Kami membantu anak melalui tiga area pendampingan utama yang
+              saling mendukung: belajar, tumbuh kembang, dan pembiasaan
+              spiritual.
+            </p>
+          </div>
+
+          <div class="service-pillar-grid" aria-label="Kategori layanan utama Deva Course">
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">PB</span>
+              <h3>Pendampingan Belajar</h3>
+              <p>
+                Membantu anak membaca, menulis, berhitung, memahami instruksi,
+                dan menyelesaikan tugas sekolah secara bertahap.
+              </p>
+              <ul class="compact-list">
+                <li>Calistung</li>
+                <li>Les privat SD</li>
+                <li>Persiapan sekolah</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">ST</span>
+              <h3>Stimulasi Tumbuh Kembang</h3>
+              <p>
+                Aktivitas sensori, motorik, fokus, dan kemandirian untuk
+                membantu anak lebih siap belajar dan beraktivitas sehari-hari.
+              </p>
+              <ul class="compact-list">
+                <li>Sensori dan motorik</li>
+                <li>Fokus dan konsentrasi</li>
+                <li>Kemandirian harian</li>
+              </ul>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">BTQ</span>
+              <h3>Pendampingan Spiritual</h3>
+              <p>
+                Belajar mengaji dan BTQ dengan suasana yang nyaman, sabar, dan
+                sesuai kemampuan anak.
+              </p>
+              <ul class="compact-list">
+                <li>Mengaji bertahap</li>
+                <li>BTQ</li>
+                <li>Pembiasaan baik</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <!-- Program Kami -->
       <section class="section section-soft" id="programs">
         <div class="container">
@@ -128,146 +215,167 @@
 
           <div class="card-grid">
             <article class="program-card">
-              <span class="card-icon">ABC</span>
-              <h3>Calistung</h3>
-              <p>Membaca, menulis, dan berhitung dengan cara yang sabar dan bertahap.</p>
+              <img
+                src="public/assets/program-calistung.jpg"
+                alt="Anak belajar menulis di Deva Course"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">ABC</span>
+                <h3>Calistung</h3>
+                <p>Membaca, menulis, dan berhitung dengan cara yang sabar, bertahap, dan menyenangkan.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">ABK</span>
-              <h3>Pendampingan Anak Berkebutuhan Khusus</h3>
-              <p>Pendampingan belajar sesuai kebutuhan, kemampuan, dan kondisi anak.</p>
+              <img
+                src="public/assets/program-pendampingan-abk.jpg"
+                alt="Kegiatan belajar kelompok anak di Deva Course"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">KBK</span>
+                <h3>Pendampingan Anak dengan Kebutuhan Belajar Khusus</h3>
+                <p>Pendampingan belajar sesuai kebutuhan, kemampuan, dan kondisi masing-masing anak.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">SM</span>
-              <h3>Terapi Sensori dan Motorik</h3>
-              <p>Aktivitas untuk membantu gerak, koordinasi, dan kesiapan belajar anak.</p>
+              <img
+                src="public/assets/program-terapi-sensori.jpg"
+                alt="Aktivitas sensori dan motorik anak"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">SM</span>
+                <h3>Terapi Sensori dan Motorik</h3>
+                <p>Aktivitas untuk membantu koordinasi gerak, motorik halus, dan kesiapan belajar anak.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">FK</span>
-              <h3>Pendampingan Fokus dan Konsentrasi</h3>
-              <p>Membantu anak belajar lebih tenang, terarah, dan menyelesaikan tugas.</p>
+              <img
+                src="public/assets/program-fokus-konsentrasi.jpg"
+                alt="Anak belajar mengenal urutan gambar"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">FK</span>
+                <h3>Pendampingan Fokus dan Konsentrasi</h3>
+                <p>Membantu anak belajar lebih tenang, terarah, dan mampu menyelesaikan tugas.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">BTQ</span>
-              <h3>Belajar Mengaji dan BTQ</h3>
-              <p>Pendampingan membaca Al-Qur'an dengan suasana yang nyaman.</p>
+              <img
+                src="public/assets/program-mengaji-btq.jpg"
+                alt="Anak belajar mengaji bersama pendamping"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">BTQ</span>
+                <h3>Belajar Mengaji dan BTQ</h3>
+                <p>Pendampingan membaca Al-Qur'an dengan suasana yang nyaman dan penuh kesabaran.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">SD</span>
-              <h3>Les Privat SD</h3>
-              <p>Bantuan belajar pelajaran sekolah dasar sesuai kebutuhan anak.</p>
+              <img
+                src="public/assets/program-les-privat-sd.jpg"
+                alt="Anak belajar membaca dan mengerjakan lembar latihan"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">SD</span>
+                <h3>Les Privat SD</h3>
+                <p>Bantuan belajar pelajaran sekolah dasar sesuai kebutuhan dan ritme belajar anak.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">PS</span>
-              <h3>Persiapan Masuk Sekolah</h3>
-              <p>Membantu anak mengenal rutinitas belajar, instruksi, dan kemandirian awal.</p>
+              <img
+                src="public/assets/program-persiapan-sekolah.jpg"
+                alt="Anak menyiapkan tas dan buku untuk masuk sekolah"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">PS</span>
+                <h3>Persiapan Masuk Sekolah</h3>
+                <p>Membantu anak mengenal rutinitas belajar, instruksi, sosial, dan kemandirian awal.</p>
+              </div>
             </article>
             <article class="program-card">
-              <span class="card-icon">KM</span>
-              <h3>Pengembangan Kemandirian Anak</h3>
-              <p>Melatih kebiasaan sederhana agar anak lebih percaya diri dalam keseharian.</p>
+              <img
+                src="public/assets/program-kemandirian-anak.jpg"
+                alt="Anak berlatih mandiri dengan aktivitas menyusun mainan"
+                class="program-card__image"
+              />
+              <div class="program-card__content">
+                <span class="program-badge">KM</span>
+                <h3>Pengembangan Kemandirian Anak</h3>
+                <p>Melatih kebiasaan sederhana agar anak lebih percaya diri dalam aktivitas harian.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Metode Pendampingan -->
+      <section class="section" id="metode">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Metode</p>
+            <h2>Metode Pendampingan yang Hangat dan Bertahap</h2>
+            <p>
+              Anak dibantu dengan ritme yang tenang agar proses belajar terasa
+              aman, mudah diikuti, dan tidak membuat anak tertekan.
+            </p>
+          </div>
+          <div class="step-grid">
+            <article class="step-card">
+              <span>1</span>
+              <h3>Observasi Awal</h3>
+              <p>Kami mengenali kebutuhan, kemampuan, dan kebiasaan belajar anak terlebih dahulu.</p>
+            </article>
+            <article class="step-card">
+              <span>2</span>
+              <h3>Pendekatan Personal</h3>
+              <p>Aktivitas disesuaikan dengan kondisi anak agar proses belajar terasa nyaman.</p>
+            </article>
+            <article class="step-card">
+              <span>3</span>
+              <h3>Belajar Sambil Bermain</h3>
+              <p>Anak diajak belajar melalui aktivitas yang menyenangkan dan mudah diikuti.</p>
+            </article>
+            <article class="step-card">
+              <span>4</span>
+              <h3>Komunikasi dengan Orang Tua</h3>
+              <p>Perkembangan anak dikomunikasikan secara berkala agar orang tua tetap terlibat.</p>
             </article>
           </div>
         </div>
       </section>
 
       <!-- Siapa yang Kami Dampingi -->
-      <section class="section">
-        <div class="container split-panel">
+      <section class="section section-soft" id="pendampingan" aria-labelledby="supported-children-title">
+        <div class="container supported-children">
           <div>
-            <p class="eyebrow">Pendampingan</p>
-            <h2>Siapa yang Kami Dampingi</h2>
+            <p class="eyebrow">Pendampingan Anak</p>
+            <h2 id="supported-children-title">Anak yang Dapat Kami Dampingi</h2>
             <p>
-              Kami mendampingi anak dengan berbagai kebutuhan belajar dan
-              tumbuh kembang, seperti:
+              Setiap anak memiliki cara belajar yang berbeda. Deva Course
+              membantu anak yang membutuhkan pendampingan tambahan dalam
+              belajar, fokus, komunikasi, dan kemandirian.
+            </p>
+            <p class="note">
+              Catatan: Program akan disesuaikan dengan hasil observasi awal
+              dan perkembangan masing-masing anak.
             </p>
           </div>
-          <div>
-            <div class="help-list" aria-label="Anak yang didampingi Deva Course">
-              <span>Autism Spectrum Disorder (ASD)</span>
-              <span>ADHD</span>
-              <span>Speech Delay</span>
-              <span>Slow Learner</span>
-              <span>Kesulitan Membaca dan Menulis</span>
-              <span>Kesulitan Konsentrasi</span>
-              <span>Keterlambatan Belajar</span>
-              <span>Anak yang membutuhkan pendampingan khusus</span>
-            </div>
-            <p class="disclaimer">
-              Kami memahami bahwa setiap anak memiliki kebutuhan yang berbeda.
-              Oleh karena itu, program akan disesuaikan dengan kondisi dan
-              perkembangan masing-masing anak.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Metode Belajar -->
-      <section class="section">
-        <div class="container approach-grid">
-          <div class="approach-image">
-            <img
-              src="public/assets/activity-sensory.jpg"
-              alt="Anak melakukan aktivitas motorik halus dengan manik-manik"
-            />
-          </div>
-          <div>
-            <p class="eyebrow">Metode</p>
-            <h2>Metode Belajar Deva Course</h2>
-            <div class="step-list">
-              <article>
-                <strong>1. Pendekatan Individual</strong>
-                <p>Setiap anak mendapatkan perhatian sesuai kebutuhannya.</p>
-              </article>
-              <article>
-                <strong>2. Belajar Sambil Bermain</strong>
-                <p>Aktivitas dirancang agar anak merasa nyaman dan senang belajar.</p>
-              </article>
-              <article>
-                <strong>3. Monitoring Perkembangan</strong>
-                <p>Orang tua dapat melihat perkembangan anak secara berkala.</p>
-              </article>
-              <article>
-                <strong>4. Kolaborasi dengan Orang Tua</strong>
-                <p>Kami percaya keberhasilan anak membutuhkan kerja sama yang baik dengan keluarga.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Keunggulan -->
-      <section class="section section-blue">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Keunggulan</p>
-            <h2>Mengapa Memilih Deva Course?</h2>
-          </div>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <h3>Pendamping yang sabar dan berpengalaman</h3>
-              <p>Anak didampingi dengan cara yang tenang, ramah, dan tidak terburu-buru.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Suasana belajar nyaman dan aman</h3>
-              <p>Lingkungan dibuat mendukung anak agar merasa diterima dan percaya diri.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Pendekatan personal untuk setiap anak</h3>
-              <p>Kegiatan disesuaikan dengan kemampuan, kebutuhan, dan kesiapan anak.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Fokus pada perkembangan nyata anak</h3>
-              <p>Kami memperhatikan kemajuan kecil yang penting bagi keseharian anak.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Komunikasi aktif dengan orang tua</h3>
-              <p>Orang tua dilibatkan agar pendampingan di rumah dan tempat belajar selaras.</p>
-            </article>
-            <article class="feature-card">
-              <h3>Program belajar yang fleksibel</h3>
-              <p>Jadwal dan materi dapat dibicarakan sesuai kebutuhan keluarga.</p>
-            </article>
+          <div class="support-chip-list" aria-label="Kebutuhan anak yang dapat didampingi">
+            <span>Kesulitan fokus</span>
+            <span>Speech delay</span>
+            <span>Slow learner</span>
+            <span>Kesulitan membaca dan menulis</span>
+            <span>Kesulitan berhitung</span>
+            <span>ADHD</span>
+            <span>Autism Spectrum Disorder</span>
+            <span>Kesulitan motorik halus</span>
+            <span>Anak yang membutuhkan rutinitas belajar lebih terarah</span>
           </div>
         </div>
       </section>
@@ -277,7 +385,7 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Galeri</p>
-            <h2>Kegiatan Anak di Deva Course</h2>
+            <h2>Galeri Kegiatan</h2>
             <p>
               Berbagai aktivitas dirancang untuk membantu anak belajar,
               bermain, bersosialisasi, dan mengembangkan potensinya secara
@@ -322,7 +430,7 @@
         <div class="container testimonial-grid">
           <div>
             <p class="eyebrow">Testimoni</p>
-            <h2>Apa Kata Orang Tua?</h2>
+            <h2>Testimoni Orang Tua</h2>
             <p>
               Perkembangan anak tidak selalu besar sekaligus. Langkah kecil
               yang konsisten tetap sangat berarti bagi anak dan keluarga.
@@ -348,15 +456,18 @@
         <div class="container contact-card">
           <div>
             <p class="eyebrow">Konsultasi</p>
-            <h2>Yuk Konsultasikan Kebutuhan Belajar Anak Anda</h2>
+            <h2>Ingin tahu program yang cocok untuk anak Anda?</h2>
             <p>
-              Kami siap membantu menemukan program yang sesuai dengan kebutuhan
-              dan potensi anak.
+              Konsultasikan kebutuhan belajar anak Anda melalui WhatsApp. Tim
+              Deva Course siap membantu setiap hari.
+            </p>
+            <p class="contact-hours-note">
+              Jam operasional: Senin – Minggu, 08.00 – 20.00 WIB
             </p>
           </div>
           <div class="button-row">
             <a class="btn btn-primary" href="https://wa.me/6282170695640" target="_blank" rel="noopener">
-              Chat WhatsApp
+              Chat WhatsApp Sekarang
             </a>
           </div>
         </div>
@@ -367,29 +478,49 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Kontak</p>
-            <h2>Hubungi Kami</h2>
+            <h2>Kontak & Lokasi</h2>
             <p>
               Silakan hubungi kami untuk bertanya jadwal, program, atau
               kebutuhan pendampingan anak.
             </p>
           </div>
-          <div class="contact-info-grid">
-            <article class="info-card">
-              <h3>WhatsApp</h3>
-              <p><a href="https://wa.me/6282170695640">0821-7069-5640</a></p>
-              <p><a href="https://wa.me/6283821318003">0838-2131-8003</a></p>
+          <div class="contact-grid">
+            <article class="contact-info-card">
+              <h3>Hubungi Deva Course</h3>
+              <div class="contact-line">
+                <span>WhatsApp 1</span>
+                <a href="https://wa.me/6282170695640">0821-7069-5640</a>
+              </div>
+              <div class="contact-line">
+                <span>WhatsApp 2</span>
+                <a href="https://wa.me/6283821318003">0838-2131-8003</a>
+              </div>
+              <a class="btn btn-primary contact-action" href="https://wa.me/6282170695640" target="_blank" rel="noopener">
+                Chat WhatsApp Sekarang
+              </a>
             </article>
-            <article class="info-card">
-              <h3>Alamat</h3>
-              <p>Alamat lengkap Deva Course akan ditambahkan di sini.</p>
+            <article class="contact-info-card">
+              <h3>Lokasi</h3>
+              <p>
+                Jln Lintas Sumatera<br />
+                Pasar Usang Cupak<br />
+                Kabupaten Solok<br />
+                Sumatera Barat
+              </p>
+              <a class="btn btn-secondary contact-action" href="#" aria-label="Lihat lokasi Deva Course di Google Maps">
+                Lihat di Google Maps
+              </a>
             </article>
-            <article class="info-card">
+            <article class="contact-info-card">
               <h3>Jam Operasional</h3>
-              <p>Senin - Sabtu, 08.00 - 17.00 WIB</p>
-            </article>
-            <article class="info-card">
-              <h3>Instagram</h3>
-              <p><a href="#" aria-label="Instagram Deva Course">@devacourse</a></p>
+              <p>
+                Senin – Minggu<br />
+                08.00 – 20.00 WIB
+              </p>
+              <p class="contact-note">
+                Silakan hubungi kami terlebih dahulu untuk konfirmasi jadwal
+                pendampingan anak.
+              </p>
             </article>
           </div>
         </div>
@@ -397,14 +528,22 @@
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
       <div class="container footer-grid">
         <div>
           <strong>Deva Course</strong>
-          <p>Pendampingan belajar dan tumbuh kembang anak berkebutuhan khusus.</p>
+          <p>Pendampingan belajar anak</p>
+          <p>Instagram: <a href="#" aria-label="Instagram Deva Course">@devacourse</a></p>
+        </div>
+        <div>
+          <p>
+            Alamat: Jln Lintas Sumatera, Pasar Usang Cupak, Kabupaten Solok,
+            Sumatera Barat
+          </p>
         </div>
         <div>
           <p>WhatsApp: <a href="https://wa.me/6282170695640">0821-7069-5640</a></p>
+          <p>Jam Operasional: Senin – Minggu, 08.00 – 20.00 WIB</p>
           <p>&copy; 2026 Deva Course. Semua hak dilindungi.</p>
         </div>
       </div>
